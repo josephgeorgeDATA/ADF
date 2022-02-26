@@ -12,7 +12,7 @@
 				"type": "AzureBlobFSLocation",
 				"fileName": "dimaccount",
 				"folderPath": "csvfiles",
-				"fileSystem": "https://sajgtraining.file.core.windows.net"
+				"fileSystem": "sajgtraining.file.core.windows.net"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
