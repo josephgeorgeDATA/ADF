@@ -11,7 +11,7 @@
 			"location": {
 				"type": "AzureBlobFSLocation",
 				"folderPath": "csvfiles",
-				"fileSystem": "https://sajgtraining1.file.core.windows.net"
+				"fileSystem": "sajgtraining1 "
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
