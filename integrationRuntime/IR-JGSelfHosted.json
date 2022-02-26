@@ -1,0 +1,6 @@
+{
+	"name": "IR-JGSelfHosted",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
