@@ -1,0 +1,24 @@
+{
+	"name": "ds_data_lake_csv_file",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_data_lake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "dimaccount",
+				"folderPath": "csvfiles",
+				"fileSystem": "https://sajgtraining.file.core.windows.net"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
