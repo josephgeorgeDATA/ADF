@@ -5,6 +5,14 @@
 			"referenceName": "ls_on_prem_sql_server",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"SchemaName": {
+				"type": "string"
+			},
+			"TableName": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "SqlServerTable",
 		"schema": [
@@ -54,8 +62,14 @@
 			}
 		],
 		"typeProperties": {
-			"schema": "dbo",
-			"table": "DimAccount"
+			"schema": {
+				"value": "@dataset().SchemaName",
+				"type": "Expression"
+			},
+			"table": {
+				"value": "@dataset().TableName",
+				"type": "Expression"
+			}
 		}
 	}
 }
