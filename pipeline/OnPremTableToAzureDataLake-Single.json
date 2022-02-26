@@ -1,5 +1,5 @@
 {
-	"name": "CopyTablesOnPremToAzureDataLake",
+	"name": "OnPremTableToAzureDataLake-Single",
 	"properties": {
 		"activities": [
 			{
